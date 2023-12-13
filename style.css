@@ -1,11 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 header {
     border: solid;
     border-radius: 3px;
     background-color: rgb(29, 39, 39);
     
 }
+a {
+    text-decoration: none;
+}
 h1 {
     color: antiquewhite;
+    margin-left: 18px;
 }
 section {
     display: flex;
@@ -22,9 +29,20 @@ div {
     margin-left: 3px;   
     margin-top: 5px;
 }
+button {
+    cursor: pointer;
+    background-color: antiquewhite;
+    font-size: medium;
+}
 #tecnologia {
     background-color: #00000025;
 }
 #entreterimento {
-    background-color: rgba(17, 202, 48, 0.623);
+    background-color: rgba(0, 255, 0, 0.267);
+}
+#buttons {
+    border: none;
+}
+#titulo {
+    border: none;
 }
